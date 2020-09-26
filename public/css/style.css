@@ -1,0 +1,40 @@
+.blog-card,.blog-description{
+    font-size: 30px;
+}
+
+.blog-title{
+    font-size: 30px;
+}
+
+.article-bg{
+    background-color: #d3d3d35b;
+    word-wrap: break-word;
+}
+
+.blue-link{
+    color:#3498db;
+}
+
+.blue-link:hover{
+    color:#2d7cb1;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color:#303030;
+    border-top:1px solid rgba(71, 71, 71, 0.589);
+}
+
+#app{
+    margin-bottom: 15px;
+}
+
+.main-title{
+    height: 400px;
+    /* position: relative !important;
+    top:35% !important;  */
+}
