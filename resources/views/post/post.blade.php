@@ -7,7 +7,7 @@
         <div class="col-12 p-3 border-bottom border-secondary pb-4">
             @if((isset(Auth::user()->roles) and auth()->user()->hasRole('MODERATOR')) or Auth::user()->id == $post->user_id )
             <div class="float-right d-flex">
-                <a href='/post/update/{{$post->id}}' class="mr-2"><button class="btn btn-info btn-sm">Modify</button></a>
+                <a href='/post/update/{{$post->id}}' class="mr-2 mb-2"><button class="btn btn-info btn-sm">Modify</button></a>
                 @if((isset(Auth::user()->roles) and auth()->user()->hasRole('ADMIN')) or Auth::user()->id == $post->user_id)
                 <form method="POST" action="/post/{{$post->id}}">
                     {{ csrf_field() }}
